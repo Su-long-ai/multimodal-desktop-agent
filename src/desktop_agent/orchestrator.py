@@ -1,8 +1,6 @@
 from __future__ import annotations
 
 import json
-from typing import Sequence
-
 from .avatar import AvatarAdapter, NullAvatar
 from .config import AgentConfig
 from .llm import LLMProvider
