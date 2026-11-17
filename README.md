@@ -8,6 +8,7 @@
 - **Memory:** pluggable long-term backend with deterministic in-memory fallback
 - **Multimodal integration:** STT/TTS/avatar interfaces kept outside the core
 - **Engineering:** dependency injection, offline tests, privacy-conscious public/private boundary
+- **Verification:** 5/5 public tests pass in local verification; `ruff check src tests` passes
 
 ## Why this repository exists
 
