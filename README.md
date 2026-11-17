@@ -1,6 +1,13 @@
 # Multimodal Desktop Agent
 
-A **public, asset-free architecture showcase** distilled from a larger private Windows desktop-agent project.  The private app combines an animated desktop avatar, local or OpenAI-compatible LLMs, long-term memory, voice input/output and MCP-style tools.  This repository publishes the reusable orchestration core while deliberately excluding personal media, avatar assets, credentials and machine-specific integrations.
+**Agent engineering portfolio project:** a testable orchestration core for a Windows desktop AI agent with pluggable LLM providers, long-term memory, MCP-style tools, and optional voice/avatar adapters.
+
+**Recruiter quick scan**
+- **Agent runtime:** provider abstraction + bounded tool-execution loop
+- **Tooling:** collision-safe MCP-style namespaces and adapter boundaries
+- **Memory:** pluggable long-term backend with deterministic in-memory fallback
+- **Multimodal integration:** STT/TTS/avatar interfaces kept outside the core
+- **Engineering:** dependency injection, offline tests, privacy-conscious public/private boundary
 
 ## Why this repository exists
 
